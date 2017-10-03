@@ -1,20 +1,22 @@
 {
   "name": "@jonstuebe/react-text-selection",
-  "version": "0.1.0",
-  "description":
-    "Render prop callback function to provide text selection for text inputs, textarea's, etc.",
+  "version": "0.1.1",
+  "description": "Render prop callback function to provide text selection for text inputs, textarea's, etc.",
   "main": "lib/index.js",
   "private": false,
   "scripts": {
-    "build":
-      "node_modules/.bin/babel --presets es2015,stage-0,react -d lib/ src/",
+    "build": "node_modules/.bin/babel --presets es2015,stage-0,react -d lib/ src/",
     "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jonstuebe/react-text-selection.git"
   },
-  "keywords": ["react", "javascript", "text-selection"],
+  "keywords": [
+    "react",
+    "javascript",
+    "text-selection"
+  ],
   "author": "Jon Stuebe <jstuebe@gmail.com>",
   "license": "MIT",
   "bugs": {
