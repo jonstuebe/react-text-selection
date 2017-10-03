@@ -1,0 +1,32 @@
+{
+  "name": "@jonstuebe/react-text-selection",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "private": false,
+  "scripts": {
+    "build":
+      "node_modules/.bin/babel --presets es2015,stage-0,react -d lib/ src/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonstuebe/react-text-selection.git"
+  },
+  "keywords": ["react", "javascript", "text-selection"],
+  "author": "Jon Stuebe <jstuebe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonstuebe/react-text-selection/issues"
+  },
+  "homepage": "https://github.com/jonstuebe/react-text-selection#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "peerDependencies": {
+    "react": "^15.6.1"
+  }
+}
