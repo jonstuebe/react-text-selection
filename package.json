@@ -1,7 +1,8 @@
 {
   "name": "@jonstuebe/react-text-selection",
   "version": "0.1.0",
-  "description": "",
+  "description":
+    "Render prop callback function to provide text selection for text inputs, textarea's, etc.",
   "main": "lib/index.js",
   "private": false,
   "scripts": {
