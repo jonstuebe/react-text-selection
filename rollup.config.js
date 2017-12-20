@@ -20,7 +20,7 @@ export default [
       autoExternal()
     ],
     globals: {
-      react: "react"
+      react: "React"
     }
   },
   {
