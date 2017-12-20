@@ -1,7 +1,7 @@
 {
   "name": "@jonstuebe/react-text-selection",
   "umdName": "TextSelection",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Render prop callback function to provide text selection for text inputs, textarea's, etc.",
   "browser": "lib/react-text-selection-umd.js",
   "main": "lib/react-text-selection-cjs.js",
