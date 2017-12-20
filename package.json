@@ -1,8 +1,9 @@
 {
   "name": "@jonstuebe/react-text-selection",
-  "umdName": "reactTextSelection",
+  "umdName": "TextSelection",
   "version": "0.2.0",
-  "description": "Render prop callback function to provide text selection for text inputs, textarea's, etc.",
+  "description":
+    "Render prop callback function to provide text selection for text inputs, textarea's, etc.",
   "browser": "lib/react-text-selection-umd.js",
   "main": "lib/react-text-selection-cjs.js",
   "module": "lib/react-text-selection-es.js",
@@ -15,18 +16,12 @@
     "start": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": [
-    "lib/"
-  ],
+  "files": ["lib/"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jonstuebe/react-text-selection.git"
   },
-  "keywords": [
-    "react",
-    "javascript",
-    "text-selection"
-  ],
+  "keywords": ["react", "javascript", "text-selection"],
   "author": "Jon Stuebe <jstuebe@gmail.com>",
   "license": "MIT",
   "bugs": {
